@@ -1,0 +1,18 @@
+value_letters = [(4,"r"),(2,"w"),(1,"x")]
+octal = 755
+result = ""
+for digit in [int(n) for n in str(octal)]:
+	for value, letter in value_letters:
+		
+		print (digit, value, letter )
+
+print(result)
+
+
+
+languages = ["python", "php", "java", "oracal"]
+length = [len(language) for language in languages]
+#print(length)
+
+numbers = [int(n) for n in str(octal)]
+#print(numbers)
