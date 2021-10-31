@@ -18,7 +18,10 @@ def decimal_to_binary( number ):
             number = number - decimal
         else:
             binary_digits.append(0)
-    return binary_digits
+    
+    # format the binary
+    separator =  ""
+    return separator.join(map(str, binary_digits))
 
 
   print(decimal_to_binary(1))
